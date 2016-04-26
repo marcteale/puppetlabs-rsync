@@ -45,3 +45,6 @@ log format       = <%= @log_format %>
 <% if @refuse_options -%>
 refuse options   = <%= Array(@refuse_options).join(' ')%>
 <% end -%>
+<% if @numeric_ids -%>
+numeric ids = <%= @numeric_ids %>
+<% end -%>
